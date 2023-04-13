@@ -33,7 +33,7 @@ button:hover {
 
 .landingPg {
     background: linear-gradient(#00A3FF, #AD00FF);
-    height: 110vh;
+    min-height: 110vh;
     color: white;
 }
 
@@ -41,7 +41,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 1.5rem;
+    padding: 3rem 2rem;
 }
 
 .navbar span {
@@ -88,9 +88,11 @@ button:hover {
 
 .landingPg .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 3rem;
+    padding: 0 5rem;
 }
 
 .landingPg .container .textContent h1 {

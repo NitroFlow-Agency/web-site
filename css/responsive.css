@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 2vw;
+    }
+    #landingSection nav .nav-menu ul li {
+        margin: 0 0.5rem;
+    }
+    #landingSection nav #hamburgerBtn {
+        display: initial;
+    }
+    #landingSection nav .nav-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: white;
+        border-radius: 10px;
+        color: black;
+        width: 30vw;
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    html {
+        font-size: .7rem;
+    }
+    
+}

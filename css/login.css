@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px rgba(153, 153, 153, 0.37);
+}
+
+.navbar .logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logoContainer .logo {
+    width: 3rem;
+}
+
+.navbar .logoContainer .logoTxt {
+    color: #1E1E1E;
+    font-weight: 700;
+    margin-left: 1vw;
+    font-size: larger;
+}
+
+.navbar .navBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .navBtns button {
+    padding: 0.7rem 1.2rem;
+    margin: 0 .4rem;
+    outline: none;
+    font-weight: 700;
+}
+
+.navbar .navBtns button:hover {
+    cursor: pointer;
+}
+
+.navbar .navBtns .loginBtn button {
+    color: #00A3FF;
+    background-color: white;
+    border: 1px solid #00A3FF;
+    border-radius: 3px;
+}
+
+.navbar .navBtns .tryForFreeBtn button {
+    background-color: #00A3FF;
+    border: 1px solid #00A3FF;
+    color: white;
+    border-radius: 3px;
+}
+
+/* Form CSS */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    background: linear-gradient(to right, #83E1FF, #00AAE7);
+    min-width: 30%;
+    border-radius: 20px;
+    color: white;
+    font-weight: lighter;
+}
+
+.formContainer .formHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.formContainer .formHeader span {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.formContainer input {
+    padding: 1rem 2rem;
+    margin: .5rem 0;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    width: 100%;
+}
+
+.formContainer .tcBox input {
+    background-color: #00A3FF;
+    width: fit-content;
+}
+
+.formContainer .submitBtn button {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 1rem 0;
+}
+
+.formContainer .submitBtn button:hover {
+    cursor: pointer;
+}
+
+.formContainer a {
+    color: white;
+    font-size: small;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 2rem;
+    }
+}
