@@ -10,7 +10,7 @@
 
 #landingSection {
     padding: 10px;
-    min-width: 100vw;
+    width: 100vw;
     min-height: 100vh;
     background: linear-gradient(to right, #00C9FF, #045DE9);
     color: white;
